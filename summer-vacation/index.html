@@ -1,0 +1,102 @@
+<!DOCTYPE html> 
+
+
+<html> 
+
+<body background="skybg2.jpg">
+
+<head>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Sigmar+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Delius+Unicase" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Actor' rel='stylesheet'>
+<link rel="stylesheet" type="text/css" href="main.css">
+
+
+<title>Allie's Summer Vacation</title>
+
+</head>
+
+<body>
+
+<h1>Allie's Summer Vacation</h1>
+
+<p>This summer was full of many great memories. I travelled to places <br>like <b>Puerto Rico</b>, 
+<b>California</b> and <b>Orlando</b>.</br></p> 
+
+<h2>Puerto Rico</h2> 
+
+<p>During June, I travelled to Puerto Rico--where I've lived for most of my life--to visit family
+and friends. <br>It was an endearing experience because I had not seen them in a while. We hung out at popular places like:</br> </p>
+
+<h3>
+<a href="https://sanjuanpuertorico.com/old-san-juan/">Viejo San Juan</a> </h3> 
+<h3>
+<a href="http://www.puertoricodaytrips.com/playa-sardinera-hatillo/">Playa Sardinera</a> </h3>
+<h3> 
+<a href="http://www.tropicaltrailrides.com/">Horseback riding in Isabella</a> </h3>
+
+<p>My friends and I ate popsicles from a really good shop called <b>"Señor Paleta."</b> I also visited my greatgrandma,
+whom <br>I had not seen in a while. I was in Puerto Rico for almost 3 weeks before I had to head back home.</br></p>
+
+ 
+
+<h2>California</h2> 
+
+<p>After Puerto Rico, I headed off back home to pack my bags and leave to California for 5 weeks. I had received 
+scholarship <br>from the California College of the Arts to attend a Pre-college program. The college is located in 
+Oakland, CA, right next to </br> San Francisco. In the program, I met so many increbibly talented and kind people whom have 
+stayed in contact with me to this day.</br> </P> 
+
+<br> 
+
+My Summer overall was an amazing, fortunate and even eye-opening experience. <br>I hope that the next one will be the same or better yet.</p>
+
+<h2 class="w3-center">Summer 2017</h2>
+
+<div class="w3-content w3-display-container"> 
+ <img class="mySlides" src="senorpalet.jpg"alt="group of people eating popsicles"style="width:40%"> 
+
+ <img class="mySlides" src="beachbois.jpg"alt="group picture at the beach" style="width:40%">
+
+<img class="mySlides" src="sanfran.jpg" alt="lombard street" style="width:40%"></p>
+
+ <img class="mySlides" src="coolbois.jpg" alt="group picture in bus" style="width:40%"> 
+
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+
+
+</script>
+
+<p>By Alejandra Torres-Lopez</p>
+
+</body> 
+
+</html> 
