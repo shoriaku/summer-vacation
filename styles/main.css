@@ -1,0 +1,23 @@
+
+@font-face {
+    
+
+font-family: 'stardust_adventureregular';
+    
+src: url('stardust_adventure-webfont.woff2') format('woff2'),
+ url(') format('woff');
+   
+ font-weight: normal;
+    font-style: normal;
+
+
+
+} 
+
+
+h1 {
+font-family: 'stardust_adventureregular', Arial, sans-serif;
+}
+
+
+
