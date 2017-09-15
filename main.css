@@ -4,6 +4,7 @@ body{
 
    font-family: 'Actor';
    text-align: ;
+    background: #93c9f2;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -14,7 +15,7 @@ h1 {
    font-family: 'Sigmar One', cursive;
    font-size: 60px;
    text-align: center;
-   color: #ff6100;
+   color: #ffffff;
 
 }
 
@@ -22,7 +23,7 @@ h2{
 
    font-family: 'Caveat Brush', cursive;
    font-size: 30px;
-   color: #3a53d1;
+   color: #f79102;
 
 }
 
@@ -34,15 +35,15 @@ a {
 
 }
 a:link {
-   color: #707063;
+   color: #ffffff;
    border-bottom: 1px solid #1539ed;
 }
 a:visited {
-   color: #707063;
+   color: #ffffff;
    border-bottom: 1px solid #1539ed;
 }
 a:hover {
-   color: #707063;
+   color: #ffffff;
    border-bottom: 1px dashed #1539ed;
 } 
 
@@ -50,4 +51,8 @@ a:hover {
 
 div {
     text-align:justify;
+}
+
+img {
+max-width: 100%;
 }
